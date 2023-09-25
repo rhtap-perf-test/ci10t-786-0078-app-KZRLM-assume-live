@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-wxaa
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/ci10t-786-0078-tenant/ci10t-786-0078-app/devfile-sample-wxaa@sha256:944d1630054e1e23d7c4b3dd96de6f04564ff44c373827dfc803b65d96205aa3
+        name: my-nodejs
+        resources: {}
+status: {}
