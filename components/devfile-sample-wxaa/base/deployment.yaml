@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-wxaa
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/ci10t-786-0078-tenant/ci10t-786-0078-app/devfile-sample-wxaa@sha256:944d1630054e1e23d7c4b3dd96de6f04564ff44c373827dfc803b65d96205aa3
         name: my-nodejs
         ports:
         - containerPort: 3001
